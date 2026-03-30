@@ -1,0 +1,65 @@
+📊 Project Report: Trend Analyzer using AI Agents
+1. Introduction
+
+The Trend Analyzer project is designed to identify and analyze current trends using AI-powered agents and external data sources. It leverages modern tools such as language models and APIs to gather, process, and interpret trending information efficiently. The system is built using Python and integrates multiple services for intelligent data analysis.
+
+2. Objective
+
+The main objectives of this project are:
+
+To analyze current trends from various online sources
+To automate data collection and processing
+To generate meaningful insights using AI models
+To demonstrate the use of agent-based architectures
+3. Technologies Used
+Python – Core programming language
+Google ADK (Agent Development Kit) – For building AI agents
+LiteLLM Model – For natural language processing
+Exa API – For search-based data retrieval
+Tavily Client – For web search and insights
+Firecrawl – For web scraping and crawling
+dotenv – For managing environment variables
+4. System Architecture
+
+The system uses a multi-agent architecture:
+
+SequentialAgent: Executes tasks step-by-step
+LlmAgent: Processes and generates insights using AI
+Runner: Manages execution of agents
+Session Service: Stores temporary session data
+
+The model used (Meta-Llama-3.1-8B-Instruct) processes user queries and generates responses based on collected data.
+
+5. Working of the System
+Environment variables are loaded securely using .env
+API keys and base URLs are configured
+The LiteLLM model is initialized
+Agents are created to handle:
+Data collection
+Processing
+Analysis
+External APIs (Exa, Tavily, Firecrawl) fetch real-time data
+The system analyzes trends and produces results
+6. Features
+Real-time trend analysis
+Integration with multiple data sources
+AI-based insights generation
+Modular and scalable architecture
+Secure API handling
+7. Advantages
+Saves time in manual research
+Provides accurate and fast insights
+Easily extendable with new APIs
+Efficient use of AI agents
+8. Limitations
+Depends on API availability and rate limits
+Requires internet connectivity
+May produce biased results based on data sources
+9. Future Enhancements
+Add visualization dashboards
+Improve accuracy using advanced models
+Integrate more data sources
+Deploy as a web application
+10. Conclusion
+
+The Trend Analyzer project demonstrates how AI agents and APIs can be combined to create a powerful system for analyzing trends. It highlights the effectiveness of automation and intelligent systems in handling large-scale data and generating useful insights
