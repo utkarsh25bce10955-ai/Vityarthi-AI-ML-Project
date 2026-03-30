@@ -12,6 +12,7 @@ Analyzes AI trends and provides specific Nebius model recommendations
 Technical Pattern
 
 
+
 cd advance_ai_agents/trend_analyzer_agent
 Install dependencies:
 # Using pip
