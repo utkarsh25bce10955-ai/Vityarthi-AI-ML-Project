@@ -10,16 +10,8 @@ Scrapes and processes data from Nebius Token Factory using Firecrawl
 Synthesizes and structures this information into a comprehensive analysis
 Analyzes AI trends and provides specific Nebius model recommendations
 Technical Pattern
-Uses a 5-agent sequential pipeline:
 
-ExaAgent: Fetches latest AI news from Twitter/X
-TavilyAgent: Retrieves AI benchmarks and analysis
-SummaryAgent: Combines and formats information from the first two agents
-FirecrawlAgent: Scrapes Nebius Token Factory website for model information
-AnalysisAgent: Performs deep analysis using Llama-3.1-Nemotron-Ultra-253B model
-Installation
-Clone the Repo
-git clone https://github.com/Arindam200/awesome-ai-apps.git
+
 cd advance_ai_agents/trend_analyzer_agent
 Install dependencies:
 # Using pip
